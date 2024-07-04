@@ -10,8 +10,8 @@ function Hero() {
             <div className='bg-black opacity-60 w-full h-full absolute' />
             <div className='relative min-h-screen w-full h-full py-32 flex flex-col justify-center items-center'>
                 <div className='text-center'>
-                    <motion.h1 variants={scaleIn} initial='hidden' animate='visible' className='text-3xl md:text-6xl md:w-[525px] font-extrabold'>Portfolio KitaDigital<span className='text-yellow-400'></span></motion.h1>
-                    <motion.p variants={scaleIn} initial='hidden' animate='visible' className='mt-4 text-xl md:text-2xl'>One Example of KitaDigital</motion.p>
+                    <motion.h1 variants={scaleIn} initial='hidden' animate='visible' className='text-3xl md:text-6xl md:w-[525px] font-extrabold'>Portfolio YantDev<span className='text-yellow-400'></span></motion.h1>
+                    <motion.p variants={scaleIn} initial='hidden' animate='visible' className='mt-4 text-xl md:text-2xl'>One Example of YantDev</motion.p>
                 </div>
                 <motion.div variants={staggerChildren} initial='hidden' animate='visible' className='flex flex-wrap mt-8 justify-center items-center gap-2 md:gap-8 container text-center '>
                     <motion.div variants={toLeft} className='border-2 border-white/40 py-3 px-6 md:py-6 md:px-16 hover:border-yellow-400 '>

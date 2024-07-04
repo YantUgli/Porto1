@@ -38,7 +38,7 @@ function Navbar({ isScrolled, activeSection }) {
                 animate="visible"
                 variants={fadeInUp}
                 className="text-3xl font-extrabold">
-                KitaDigital<span className="text-yellow-400"></span>
+                Yant<span className="text-yellow-400">Dev</span>
             </motion.a>
             <Burger color='white' opened={opened} onClick={open} aria-label="Toggle navigation" className='lg:hidden' />
             <Drawer className='' radius='md' opened={opened} onClose={close} position='right' size='50%' color='black'>
